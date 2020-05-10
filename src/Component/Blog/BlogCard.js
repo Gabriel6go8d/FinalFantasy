@@ -2,7 +2,7 @@ import React, {useEffect, useRef} from 'react'
 import { Card } from 'react-bootstrap'
 
 function BlogCard(prop) {
-    const desUrl = `${process.env.PUBLIC_URL}/blog/${prop.values.id}`
+    const desUrl = `${process.env.PUBLIC_URL}/#/blog/${prop.values.id}`
 
     const cardRef = useRef(null)
     var go = true

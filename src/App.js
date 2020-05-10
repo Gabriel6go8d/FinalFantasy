@@ -17,8 +17,8 @@ function App() {
               <Route path='/' exact component={PageMain}/>
               <Route path='/blog' exact component={PageBlog}/>
               <Route path='/blog/:id' strict exact component={PageBlogEach}/> 
-              <Route path='/gallery' component={PageGallery}/>
-              <Route path='/about' component={About}/>
+              <Route path='/gallery' exact component={PageGallery}/>
+              <Route path='/about' exact component={About}/>
           </Switch>
       </Router>
       <Footer/>
