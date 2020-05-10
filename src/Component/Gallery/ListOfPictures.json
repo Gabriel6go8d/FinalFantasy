@@ -1,0 +1,80 @@
+[
+    {
+        "id": 0,
+        "src": "https://2.bp.blogspot.com/-ST0DZzRt5oM/XQ8e1PI3dyI/AAAAAAAAHtY/kjr9PUpmyMk3xeBbd7jiyKXzkZv0n6w3gCKgBGAs/w0/final-fantasy-7-remake-characters-uhdpaper.com-4K-40.jpg",
+        "label": "FINAL FANTASY",
+        "bold": "VII",
+        "faces": ["barret", "cid","aerith", "tifa","yuffie", "vincent","cait", "red","cloud"]
+    },
+    {
+        "id": 1,
+        "src": "https://www.ecopetit.cat/wpic/mpic/15-151290_final-fantasy-7-crisis-core.jpg",
+        "label": "FINAL FANTASY",
+        "bold": "VII",
+        "faces": ["zack", "sephiroth"]
+    },
+    {
+        "id": 2,
+        "src": "https://xombitgames.com/files/2013/07/lightning-returns-final-fantasy-XIII-wallpaper.jpg",
+        "label": "FINAL FANTASY",
+        "bold": "XIII",
+        "faces": ["lightning", "serah"]
+    },
+    {
+        "id": 3,
+        "src": "https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/5298bac0-b8bf-4c80-af67-725c1272dbb0/ddutu95-8dc2569e-644f-43d3-b922-532e7b881256.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOiIsImlzcyI6InVybjphcHA6Iiwib2JqIjpbW3sicGF0aCI6IlwvZlwvNTI5OGJhYzAtYjhiZi00YzgwLWFmNjctNzI1YzEyNzJkYmIwXC9kZHV0dTk1LThkYzI1NjllLTY0NGYtNDNkMy1iOTIyLTUzMmU3Yjg4MTI1Ni5qcGcifV1dLCJhdWQiOlsidXJuOnNlcnZpY2U6ZmlsZS5kb3dubG9hZCJdfQ.SpAZjBd5PjAvU9jrRPI4Z7Ck8D1AImmGkzUxc-Q79p4",
+        "label": "FINAL FANTASY",
+        "bold": "VII",
+        "faces": ["cloud", "barret", "jessie", "tifa", "aerith", "sephiroth", "rude", "reno", "presidente", "heidegger"]
+    },
+    {
+        "id": 4,
+        "src": "https://wallpapercave.com/wp/O3BHnzI.jpg",
+        "label": "FINAL FANTASY",
+        "bold": "VII",
+        "faces": ["cloud", "sephiroth"]
+    },
+    {
+        "id": 5,
+        "src": "https://images6.alphacoders.com/567/thumb-1920-567416.jpg",
+        "label": "FINAL FANTASY",
+        "bold": "XIII",
+        "faces": ["noel_kreiss", "serah"]
+    },
+    {
+        "id": 6,
+        "src": "https://i.ytimg.com/vi/aL4Dn1A7AoY/maxresdefault.jpg",
+        "label": "FINAL FANTASY",
+        "bold": "VII",
+        "faces": ["vincent"]
+    },
+    {
+        "id": 7,
+        "src": "https://www.itl.cat/pngfile/big/35-355129_wide-16-final-fantasy-xv.jpg",
+        "label": "FINAL FANTASY",
+        "bold": "XV",
+        "faces": ["ace", "noctis"]
+    },
+    {
+        "id": 8,
+        "src": "https://gaminguardian.com/wp-content/uploads/2017/08/Final-Fantasy-XV-Wallpaper-Images.jpg",
+        "label": "FINAL FANTASY",
+        "bold": "XV",
+        "faces": ["noctis", "ignis", "prompto_argentum"]
+    },
+    {
+        "id": 9,
+        "src": "https://images4.alphacoders.com/572/thumb-1920-572602.jpg",
+        "label": "FINAL FANTASY",
+        "bold": "VIII",
+        "faces": ["squall", "rinoa"]
+    },
+    {
+        "id": 10,
+        "src": "https://images4.alphacoders.com/572/thumb-1920-572602.jpg",
+        "label": "FINAL FANTASY",
+        "bold": "XV",
+        "faces": ["noctis", "lunafreya"]
+    }
+    
+]
