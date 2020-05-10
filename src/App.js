@@ -12,13 +12,13 @@ import About from './Component/About/PageAbout'
 function App() {
   return (
     <div className="App">
-      <Router>
+      <Router basename={process.env.PUBLIC_URL}>
           <Switch>
-              <Route path={process.env.PUBLIC_URL + '/'} exact component={PageMain}/>
-              <Route path={process.env.PUBLIC_URL + '/blog'} exact component={PageBlog}/>
-              <Route path={process.env.PUBLIC_URL + '/blog/:id'} strict exact component={PageBlogEach}/> 
-              <Route path={process.env.PUBLIC_URL + '/gallery'} component={PageGallery}/>
-              <Route path={process.env.PUBLIC_URL + '/about'} component={About}/>
+              <Route path='/' exact component={PageMain}/>
+              <Route path='/blog' exact component={PageBlog}/>
+              <Route path='/blog/:id' strict exact component={PageBlogEach}/> 
+              <Route path='/gallery' component={PageGallery}/>
+              <Route path='/about' component={About}/>
           </Switch>
       </Router>
       <Footer/>
