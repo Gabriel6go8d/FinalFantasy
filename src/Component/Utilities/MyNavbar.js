@@ -7,7 +7,11 @@ function MyNavbar(prop) {
         <React.Fragment>
             <Navbar bg="dark" variant='dark' sticky='top' expand="lg">
             <div className='container'>
-                <Navbar.Brand href={process.env.PUBLIC_URL + "/#/"} style={{fontSize: '20px'}}>FinalFantasy</Navbar.Brand>
+                <img src={require('../../Images/logo2.png')} alt='logo' className='logo_img' 
+                    onClick={() => window.location = process.env.PUBLIC_URL + "/#/"}></img>
+                <Navbar.Brand href={process.env.PUBLIC_URL + "/#/"} style={{fontSize: '20px'}}>                    
+                    FinalFantasy
+                    </Navbar.Brand>
                 <Navbar.Toggle aria-controls="basic-navbar-nav" />
                 <Navbar.Collapse id="basic-navbar-nav">                
                 <Nav className="mr-auto" activeKey={prop.location}>

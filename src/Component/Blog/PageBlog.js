@@ -1,6 +1,7 @@
 import React from 'react'
 import MyNavbar from '../Utilities/MyNavbar';
 import CardSection from './BlogSection';
+import Footer from '../Utilities/Footer'
 
 function PageBlog(prop) {
     return (
@@ -12,7 +13,8 @@ function PageBlog(prop) {
                     <p className='col-12'>Mollit anim aliqua in ea et sunt qui in ullamco. Adipisicing nulla quis deserunt magna deserunt excepteur deserunt aute qui reprehenderit minim. Dolore anim aute velit elit laborum eiusmod aliquip quis sunt officia aliquip commodo cupidatat.</p>
                 </div>
                 <CardSection/>
-            </div>          
+            </div>      
+            <Footer/>    
         </React.Fragment>
     )
 }

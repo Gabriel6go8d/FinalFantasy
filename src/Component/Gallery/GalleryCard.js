@@ -1,4 +1,4 @@
-import React, {useState, useRef} from 'react'
+import React, {useState, useRef, useEffect} from 'react'
 import {FiShare2} from 'react-icons/fi'
 import {FaRegHeart, FaHeart, FaInfoCircle} from 'react-icons/fa'
 import {AiOutlineCloudDownload} from 'react-icons/ai'
@@ -30,13 +30,25 @@ function GalleryCard(prop) {
 
     const [red, setRed] = useState(<FaRegHeart size='25px' color='black'/>)
 
-    const present = prop.values.faces.map((xx, index) => <CardThumnails values={xx} key={index}/>)
+    const ImgRef = useRef(null)
+    const ClickDivRef = useRef(null)
+    useEffect(() => {
+        ImgRef.current.addEventListener('load', function(){
+            ClickDivRef.current.classList.remove('loading')
+          });
+    }, [])
 
+    const present = prop.values.faces.map((xx, index) => <CardThumnails values={xx} key={index}/>)
+    // style={{backgroundImage: `url(${require(`../../Images/ima${prop.values.id}.png`)})`}}
     return (
         <div className='col-12 col-md-6 col-lg-6 col-xl-4 m-0 p-0' ref={CardRef}>
-            <div className='gallery_image myHover m-1' style={{backgroundImage: `url(${require(`../../Images/ima${prop.values.id}.png`)})`}}>
+            <div className='gallery_image myHover m-1' >
+                <img alt='test' className='gallery_image2 p-1' src={require(`../../Images/ima${prop.values.id}.png`)} ref={ImgRef}></img>
 
-                <div onClick={() => window.location = require(`../../Images/ima${prop.values.id}.png`)} className='click_div'></div>
+                <div onClick={() => window.location = require(`../../Images/ima${prop.values.id}.png`)} className='click_div loading' ref={ClickDivRef}>
+                    <div className="lds-dual-ring">
+                    </div>
+                </div>
 
                 <div className='gallery_image_footer'>
                     <div className='row m-0 p-0 pb-3 align-items-center justify-content-around' style={{height: '80px'}}>

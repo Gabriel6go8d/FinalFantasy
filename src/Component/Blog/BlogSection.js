@@ -7,7 +7,7 @@ function BlogSection(prop) {
     const toShow = listBlog.slice(0, prop.size).map( xx => <BlogCard values={xx} key={xx.id}/>)
 
     return (
-        <div className='container'>
+        <div className='container mb-5'>
             <div className='row justify-content-around'>
                 {toShow}
             </div>
