@@ -7,7 +7,7 @@ function MyNavbar(prop) {
         <React.Fragment>
             <Navbar bg="dark" variant='dark' sticky='top' expand="lg">
             <div className='container'>
-                <Navbar.Brand href="/" style={{fontSize: '20px'}}>FinalFantasy</Navbar.Brand>
+                <Navbar.Brand href={process.env.PUBLIC_URL + "/"} style={{fontSize: '20px'}}>FinalFantasy</Navbar.Brand>
                 <Navbar.Toggle aria-controls="basic-navbar-nav" />
                 <Navbar.Collapse id="basic-navbar-nav">                
                 <Nav className="mr-auto" activeKey={prop.location}>
