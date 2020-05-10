@@ -75,6 +75,13 @@
         "label": "FINAL FANTASY",
         "bold": "XV",
         "faces": ["noctis", "lunafreya"]
+    },
+    {
+        "id": 11,
+        "src": "https://images4.alphacoders.com/572/thumb-1920-572602.jpg",
+        "label": "FINAL FANTASY",
+        "bold": "XV",
+        "faces": ["noctis"]
     }
     
 ]
