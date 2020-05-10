@@ -1,7 +1,7 @@
 import React from 'react';
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import {BrowserRouter as Router, Route, Switch} from 'react-router-dom'
+import {HashRouter  as Router, Route, Switch} from 'react-router-dom'
 import PageMain from './Component/Main/PageMain'
 import PageBlog from './Component/Blog/PageBlog'
 import Footer from './Component/Utilities/Footer'
