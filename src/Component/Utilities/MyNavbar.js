@@ -13,7 +13,8 @@ function MyNavbar(prop) {
                 <Nav className="mr-auto" activeKey={prop.location}>
                     <Nav.Link href={process.env.PUBLIC_URL + "/blog"} style={{fontSize: '20px'}}>Blog</Nav.Link>
                     <Nav.Link href={process.env.PUBLIC_URL + "/gallery"} style={{fontSize: '20px'}}>Gallery</Nav.Link>  
-                    <Nav.Link href={process.env.PUBLIC_URL + "/about"} style={{fontSize: '20px'}}>About</Nav.Link>                       
+                    <Nav.Link href={process.env.PUBLIC_URL + "/about"} style={{fontSize: '20px'}}>About</Nav.Link>   
+                    <h1 className='text-white'>test1</h1>                  
                 </Nav> 
                 <Nav activeKey={prop.location}>
                     <Nav.Link href="/login" style={{fontSize: '20px'}} disabled>Login</Nav.Link>
