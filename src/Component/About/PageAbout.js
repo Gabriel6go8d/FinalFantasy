@@ -51,10 +51,10 @@ function PageAbout(prop) {
 
                             <h5 className='mt-3'>Used Tecnologies: </h5>
                             <div className='contact_tec'>
-                                <AiFillHtml5 size='50px' color='#FF7300'/>
-                                <DiCss3 size='50px' color='#2881b8'/>
-                                <DiReact size='50px' color='#2C2F73'/>
-                                <DiBootstrap size='50px' color='#022873'/>
+                                <AiFillHtml5 size='40px' color='#FF7300'/>
+                                <DiCss3 size='40px' color='#2881b8'/>
+                                <DiReact size='40px' color='#2C2F73'/>
+                                <DiBootstrap size='40px' color='#022873'/>
                             </div>
 
                             <h5 className='mt-3'>What I Learn?</h5>
