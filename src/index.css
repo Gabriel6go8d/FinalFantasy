@@ -197,6 +197,25 @@ body p {
   border-color: #fff transparent #fff transparent;
   animation: lds-dual-ring 1.2s linear infinite;
 }
+
+.contact_link{
+  font-size: 18px;
+  display: flex;    
+  margin-bottom: 10px;
+  word-wrap: break-word;
+}
+.contact_link p{
+  margin-left: 5px;
+  margin-bottom: 0;
+}
+.contact_link div{
+  display: flex;
+}
+.contact_link svg{
+  width: 50px;
+}
+
+
 @keyframes lds-dual-ring {
   0% {
     transform: rotate(0deg);
