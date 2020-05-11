@@ -203,11 +203,13 @@ body p {
   font-size: 16px;
   display: flex;    
   margin-bottom: 10px;
-  word-wrap: break-word;
+  flex-wrap: wrap;
 }
 .contact_link p{
   margin-left: 5px;
+  max-width: 100%;
   margin-bottom: 0;
+  word-wrap: break-word;
 }
 .contact_link div{
   display: flex;
@@ -229,6 +231,11 @@ body p {
 @media only screen and (max-width: 580px){
   .footer{
     height: 100px;
+  }
+  
+  .contact_link{
+    flex-direction: column;
+    margin-top: 20px;
   }
 }
 @media only screen and (max-width: 1000px){
