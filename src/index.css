@@ -204,6 +204,7 @@ body p {
   display: flex;    
   margin-bottom: 10px;
   flex-wrap: wrap;
+  line-height: 25px;
 }
 .contact_link p{
   margin-left: 5px;

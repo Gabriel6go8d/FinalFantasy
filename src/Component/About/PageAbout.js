@@ -1,9 +1,8 @@
 import React from 'react'
 import MyNavbar from '../Utilities/MyNavbar';
 import Footer from '../Utilities/Footer'
-import {IoIosMail} from 'react-icons/io'
 import {BsBriefcaseFill} from 'react-icons/bs'
-import {FaCode, FaGithub} from 'react-icons/fa'
+import {FaCode, FaGithub, FaEnvelope} from 'react-icons/fa'
 import {AiFillHtml5} from 'react-icons/ai'
 import {DiCss3, DiReact, DiBootstrap} from 'react-icons/di'
 
@@ -20,7 +19,7 @@ function PageAbout(prop) {
                             <h5>Author: Gabriel Gutierrez</h5>
                             <a href='mailto:gabriel.ares93@gmail.com' className='contact_link'>
                                 <div>
-                                    <IoIosMail size='28px' color='black'/>
+                                    <FaEnvelope size='25px' color='black'/>
                                     <p>Email: </p>
                                 </div>
                                 <p>gabriel.ares93@gmail.com</p>
@@ -28,7 +27,7 @@ function PageAbout(prop) {
 
                             <a href='https://gabriel6go8d.github.io/curriculum-vitae-2/' className='contact_link'>
                                 <div>
-                                    <BsBriefcaseFill size='24px' color='black'/>
+                                    <BsBriefcaseFill size='25px' color='black'/>
                                     <p>Portfolio: </p>
                                 </div>
                                 <p>https://gabriel6go8d.github.io/curriculum-vitae-2/</p>
@@ -36,14 +35,14 @@ function PageAbout(prop) {
                             
                             <a href='https://github.com/Gabriel6go8d/FinalFantasy' className='contact_link'>
                                 <div>
-                                    <FaCode size='21px' color='black'/>
+                                    <FaCode size='25px' color='black'/>
                                     <p>Project Code: </p>
                                 </div>
                                 <p>https://github.com/Gabriel6go8d/FinalFantasy</p>
                             </a>
                             <a href='https://github.com/Gabriel6go8d' className='contact_link'>
                                 <div>
-                                    <FaGithub size='26px' color='black'/>
+                                    <FaGithub size='25px' color='black'/>
                                     <p>GitHub: </p>
                                 </div>
                                 <p>https://github.com/Gabriel6go8d</p>
