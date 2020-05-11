@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "4446315725af771825f13dc5480c6a25",
+    "revision": "b1b244be8eabf363120c5e7f860f8e8e",
     "url": "/FinalFantasy/index.html"
   },
   {
@@ -8,8 +8,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/FinalFantasy/static/css/2.26c87694.chunk.css"
   },
   {
-    "revision": "9b5e2e38dca90be3552a",
-    "url": "/FinalFantasy/static/css/main.7d613833.chunk.css"
+    "revision": "69fce7affb85fbe4165d",
+    "url": "/FinalFantasy/static/css/main.0db0f98a.chunk.css"
   },
   {
     "revision": "e115f6a45db54e7578db",
@@ -20,8 +20,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/FinalFantasy/static/js/2.fbf887de.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "9b5e2e38dca90be3552a",
-    "url": "/FinalFantasy/static/js/main.47c90567.chunk.js"
+    "revision": "69fce7affb85fbe4165d",
+    "url": "/FinalFantasy/static/js/main.8c895964.chunk.js"
   },
   {
     "revision": "ca72aa61e2fc2a3204dd",
