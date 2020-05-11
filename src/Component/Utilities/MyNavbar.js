@@ -5,7 +5,7 @@ function MyNavbar(prop) {
     
     return (
         <React.Fragment>
-            <Navbar bg="dark" variant='dark' sticky='top' expand="lg">
+            <Navbar variant='dark' sticky='top' expand="lg" style={{backgroundColor: '#333333'}}>
             <div className='container'>
                 <img src={require('../../Images/logo2.png')} alt='logo' className='logo_img' 
                     onClick={() => window.location = process.env.PUBLIC_URL + "/#/"}></img>
@@ -20,10 +20,10 @@ function MyNavbar(prop) {
                     <Nav.Link href={process.env.PUBLIC_URL + "/#/about"} style={{fontSize: '20px'}}>About</Nav.Link>   
                                     
                 </Nav> 
-                <Nav activeKey={prop.location}>
+                {/* <Nav activeKey={prop.location}>
                     <Nav.Link href="/login" style={{fontSize: '20px'}} disabled>Login</Nav.Link>
                     <Nav.Link href="/register" style={{fontSize: '20px'}} disabled>Register</Nav.Link>                                    
-                </Nav>
+                </Nav> */}
                 
                 </Navbar.Collapse>
             </div>
