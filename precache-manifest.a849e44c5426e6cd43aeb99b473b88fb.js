@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "a2cb75e32553fe8f5b7bdec8c1fa320c",
+    "revision": "dc7387f99d66068f2b5db2a20aff0942",
     "url": "/FinalFantasy/index.html"
   },
   {
-    "revision": "82941b956bb24e960684",
+    "revision": "83b40ce335f9c05d2dd6",
     "url": "/FinalFantasy/static/css/2.26c87694.chunk.css"
   },
   {
-    "revision": "5a2e5a023b3a8a83b373",
-    "url": "/FinalFantasy/static/css/main.b645b7e6.chunk.css"
+    "revision": "b1146ffadb956a1a22fc",
+    "url": "/FinalFantasy/static/css/main.1452e12a.chunk.css"
   },
   {
-    "revision": "82941b956bb24e960684",
-    "url": "/FinalFantasy/static/js/2.75d97d76.chunk.js"
+    "revision": "83b40ce335f9c05d2dd6",
+    "url": "/FinalFantasy/static/js/2.603343bd.chunk.js"
   },
   {
     "revision": "3453b8997016469371284a28c0e873e2",
-    "url": "/FinalFantasy/static/js/2.75d97d76.chunk.js.LICENSE.txt"
+    "url": "/FinalFantasy/static/js/2.603343bd.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "5a2e5a023b3a8a83b373",
-    "url": "/FinalFantasy/static/js/main.9c540c74.chunk.js"
+    "revision": "b1146ffadb956a1a22fc",
+    "url": "/FinalFantasy/static/js/main.4980782a.chunk.js"
   },
   {
     "revision": "ca72aa61e2fc2a3204dd",
@@ -50,6 +50,42 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "b4abf110bef718cf64b4848caf2bfac3",
     "url": "/FinalFantasy/static/media/bigone.b4abf110.png"
+  },
+  {
+    "revision": "93039b765ebec40c77c1c61dacd34581",
+    "url": "/FinalFantasy/static/media/blog0.93039b76.png"
+  },
+  {
+    "revision": "0dc7046b0239963cd362b08e6101026d",
+    "url": "/FinalFantasy/static/media/blog1.0dc7046b.png"
+  },
+  {
+    "revision": "6ad1262b31b633ae3f3cae4c54470047",
+    "url": "/FinalFantasy/static/media/blog2.6ad1262b.png"
+  },
+  {
+    "revision": "5723ab06815b526ad6b5e5834bedb9b3",
+    "url": "/FinalFantasy/static/media/blog3.5723ab06.png"
+  },
+  {
+    "revision": "97f7e3d72be80d4274b34851ad32d0bc",
+    "url": "/FinalFantasy/static/media/blog4.97f7e3d7.png"
+  },
+  {
+    "revision": "9e7f5bd96a84d9b1c9e0c0e4980c35c5",
+    "url": "/FinalFantasy/static/media/blog5.9e7f5bd9.png"
+  },
+  {
+    "revision": "8f23ef4a956374a3c2f9be7758b656a0",
+    "url": "/FinalFantasy/static/media/blog6.8f23ef4a.png"
+  },
+  {
+    "revision": "0dd5798cb41fb78993ef8b5433c1fb61",
+    "url": "/FinalFantasy/static/media/blog7.0dd5798c.png"
+  },
+  {
+    "revision": "1d086955a06eda9eac92346f3a89e45d",
+    "url": "/FinalFantasy/static/media/blog8.1d086955.png"
   },
   {
     "revision": "10bf499d76b67b151d0817f3db5593f1",
@@ -152,6 +188,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/FinalFantasy/static/media/lightning.50a83b3a.png"
   },
   {
+    "revision": "710030a06dc9688b5cf7c4e439956784",
+    "url": "/FinalFantasy/static/media/logo2.710030a0.png"
+  },
+  {
     "revision": "2444907d7b5dff8e6a6351ee52cfa4ed",
     "url": "/FinalFantasy/static/media/lunafreya.2444907d.png"
   },
@@ -238,6 +278,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "ac0d7c178e426339e38a4a9060e73369",
     "url": "/FinalFantasy/static/media/squall3.ac0d7c17.png"
+  },
+  {
+    "revision": "a2e201e158c3fb82cf5c628cc3233446",
+    "url": "/FinalFantasy/static/media/sword.a2e201e1.png"
   },
   {
     "revision": "410a1daf6221c4c586c86307b83ab223",
