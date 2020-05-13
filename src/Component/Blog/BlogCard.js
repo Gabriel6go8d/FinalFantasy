@@ -20,7 +20,7 @@ function BlogCard(prop) {
 
     return (
         <div className='col-9 col-sm-8 col-md-5 col-lg-4 m-0 p-0 mt-4 mycard' ref={cardRef}>
-            <Card style={{ width: '18rem' }}>
+            <Card style={{ width: '18rem' }} className='shadow'>
                 <Card.Img variant="top" src={require(`../../ImagesBlog/blog${prop.values.id}.png`)} style={{height: 150}}/>
                 <Card.Body>
                     <Card.Title>{prop.values.title}</Card.Title>
